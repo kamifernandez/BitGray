@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  BitGray
+
+  Created by Christian camilo fernandez on 2/11/16.
+  Copyright © 2016 Christian Camilo Fernandez. All rights reserved.
+*/
+
+"User" = "Usiarios";
+"Album/Photos" = "Album/Fotos";
+"Photos" = "Fotos";
+"Post" = "Post";
+"Album" = "Álbum";
+"Comment" = "Comentarios";
+"Post Detail" = "Detalle Post";
