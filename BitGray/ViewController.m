@@ -32,6 +32,7 @@
 
 -(void)language{
     [self.lblTittleHeader setText:NSLocalizedString(@"User", nil)];
+    [self.lblLoading setText:NSLocalizedString(@"Loading", nil)];
 }
 
 - (void)didReceiveMemoryWarning {

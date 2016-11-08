@@ -27,6 +27,7 @@
 }
 
 -(void)configurerView{
+    [self.lblLoading setText:NSLocalizedString(@"Loading", nil)];
     [self.lblTittle setText:NSLocalizedString(@"Post Detail", nil)];
     [[NSBundle mainBundle] loadNibNamed:@"HeaderPostView" owner:self options:nil];
     self.table.tableHeaderView = self.headerPostView;

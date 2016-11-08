@@ -30,6 +30,7 @@
 -(void)configurerView{
     //[[NSBundle mainBundle] loadNibNamed:@"HeaderPostView" owner:self options:nil];
     //self.table.tableHeaderView = self.headerPostView;
+    [self.lblLoading setText:NSLocalizedString(@"Loading", nil)];
     [self requestServer];
 }
 

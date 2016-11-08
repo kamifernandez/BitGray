@@ -25,6 +25,7 @@
 
 -(void)language{
     [self.lblTittleHeader setText:NSLocalizedString(@"Album", nil)];
+    [self.lblLoading setText:NSLocalizedString(@"Loading", nil)];
 }
 
 #pragma mark - Configurer

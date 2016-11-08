@@ -25,6 +25,7 @@
 
 -(void)language{
     [self.lblTittleHeader setText:NSLocalizedString(@"Photos", nil)];
+    [self.lblLoading setText:NSLocalizedString(@"Loading", nil)];
 }
 
 - (void)didReceiveMemoryWarning {

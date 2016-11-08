@@ -25,5 +25,6 @@
 
 @property(nonatomic,weak)IBOutlet UIView *vistaWait;
 @property(nonatomic,weak)IBOutlet UIActivityIndicatorView *indicador;
+@property(nonatomic,weak)IBOutlet UILabel *lblLoading;
 
 @end
